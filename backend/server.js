@@ -7,7 +7,12 @@ const app = express();
 
 // Middleware
 app.use(cors({
-  origin: ['http://localhost:3000', 'http://localhost:3001'],
+  origin: [
+    'http://localhost:3000',
+    'http://localhost:3001',
+    'https://contact-management-app-sigma-nine.vercel.app', // Your Vercel domain
+    /\.vercel\.app$/ // Allow all Vercel preview deployments
+  ],
   credentials: true
 }));
 app.use(express.json());
