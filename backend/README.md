@@ -61,9 +61,3 @@ REACT_APP_API_URL=your_backend_url/api
 - `POST /api/contacts` - Create new contact
 - `PUT /api/contacts/:id` - Update contact
 - `DELETE /api/contacts/:id` - Delete contact
-
-## 👨‍💻 Developer
-Created as part of interview assessment
-
-## 📅 Submission Date
-3rd January 2025
